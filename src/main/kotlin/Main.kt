@@ -5,6 +5,7 @@ fun main() {
     printer("Max")
     printer("Tom")
     printer("Jenny")
+    printer("Zap")
 }
 
 
