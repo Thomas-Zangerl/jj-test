@@ -1,8 +1,11 @@
 package com.example
 
 fun main() {
-    println("Hello JJ!")
-    println("Hello Max!")
-    println("Hello Jenny")
-    println("Hello Tom!")
+    printer("JJ")
+    printer("Max")
+}
+
+
+fun printer(name: String){
+    println("Hello $name")
 }
