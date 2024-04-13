@@ -1,16 +1,13 @@
 package com.example
 
 fun main() {
-    printer("Hello", "JJ")
-    printer("Hello", "Max")
-    printer("Hello", "Tom")
-    printer("Hej", "Jenny")
-    printer("Hej", "Zap")
 
+    printer("Sup", "JJ")
+    printer("Sup", "Max")
+    printer("Sup", "Tom")
+    printer("Tjena", "Jenny")
+    printer("Tjena", "Zap")
     println("\nBye!")
 }
 
 
-fun printer(greeting: String, name: String) {
-    println("$greeting $name")
-}
