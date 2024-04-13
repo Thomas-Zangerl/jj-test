@@ -1,11 +1,13 @@
 package com.example
 
 fun main() {
-    printer("JJ")
-    printer("Max")
-    printer("Tom")
-    printer("Jenny")
-    printer("Zap")
+    printer("Hello", "JJ")
+    printer("Hello", "Max")
+    printer("Hello", "Tom")
+    printer("Hej", "Jenny")
+    printer("Hej", "Zap")
+
+    println("\nBye!")
 }
 
 
