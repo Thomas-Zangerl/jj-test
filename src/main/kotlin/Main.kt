@@ -9,6 +9,6 @@ fun main() {
 }
 
 
-fun printer(name: String) {
-    println("Hello $name")
+fun printer(greeting: String, name: String) {
+    println("$greeting $name")
 }
